@@ -40,6 +40,10 @@ function openTab(evt, tabName, url) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
 
+        // Show the selected tab and add an 'active' class to the button
+        document.getElementById(tabName).classList.add('active');
+        evt.currentTarget.className += " active";
+
         // Add active class to the clicked button
         evt.currentTarget.className += " active";
 
