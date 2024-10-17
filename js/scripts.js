@@ -32,9 +32,15 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+// Function to open the selected tab
+    function openTab(evt, tabName) {
+        // Hide all tabcontent by removing the 'active' class
+        var tabcontent = document.getElementsByClassName("tabcontent");
+        for (var i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].classList.remove('active');
+        }
 
-function openTab(evt, tabName, url) {
-        // Remove active class from all buttons
+        // Remove 'active' class from all tablinks
         var tablinks = document.getElementsByClassName("tablinks");
         for (var i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
@@ -44,22 +50,10 @@ function openTab(evt, tabName, url) {
         document.getElementById(tabName).classList.add('active');
         evt.currentTarget.className += " active";
 
-        // Add active class to the clicked button
-        evt.currentTarget.className += " active";
 
-        // Fetch the content from the external HTML file
-        fetch(url)
-            .then(response => response.text())
-            .then(data => {
-                // Insert the content into the tabContent div
-                document.getElementById("tabContent").innerHTML = data;
-            })
-            .catch(error => {
-                document.getElementById("tabContent").innerHTML = "Error loading content.";
-            });
     }
 
-    // By default, load the first tab
+    // Load the first tab by default
     document.addEventListener('DOMContentLoaded', function() {
         document.querySelector(".tablinks").click();
     });
