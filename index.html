@@ -102,15 +102,15 @@
       </div>
 
 
+
 <div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'News', 'main.html')">News</button>
-    <button class="tablinks" onclick="openTab(event, 'Publications', 'publications.html')">Publications</button>
-    <button class="tablinks" onclick="openTab(event, 'Teaching', 'teaching.html')">Teaching</button>
+    <button class="tablink" onclick="loadContent('main.html', this)">Tab 1</button>
+    <button class="tablink" onclick="loadContent('page2.html', this)">Tab 2</button>
+    <button class="tablink" onclick="loadContent('page3.html', this)">Tab 3</button>
 </div>
 
-<!-- Container where tab content will be loaded -->
-<div id="tabContent" class="tabcontent">
-    <!-- Content will be loaded here -->
+<div id="content" class="content">
+    <p>Select a tab to load content here.</p>
 </div>
 
     <!-- Bootstrap core JS-->

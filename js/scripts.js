@@ -35,39 +35,23 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 
-// Function to open the selected tab and load the external content
-    function openTab(evt, tabName, url) {
-        // Hide all tab content (remove any previously loaded content)
-        document.getElementById("tabContent").innerHTML = '';
+function loadContent(page, tabElement) {
+        // Remove the active class from all buttons
+        const tabLinks = document.querySelectorAll('.tab button');
+        tabLinks.forEach(link => {
+            link.classList.remove('active');
+        });
 
-        // Remove 'active' class from all tablinks (buttons)
-        var tablinks = document.getElementsByClassName("tablinks");
-        for (var i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
+        // Add the active class to the current button
+        tabElement.classList.add('active');
 
-        // Show the selected tab and add an 'active' class to the button
-        document.getElementById(tabName).classList.add('active');
-        evt.currentTarget.className += " active";
-
-        // Add 'active' class to the clicked tab button
-        evt.currentTarget.className += " active";
-
-        // Load the content of the clicked tab from an external HTML file
-        fetch(url)
+        // Fetch the content from the specified page
+        fetch(page)
             .then(response => response.text())
             .then(data => {
-                // Insert the loaded HTML into the tabContent div
-                document.getElementById("tabContent").innerHTML = data;
+                document.getElementById('content').innerHTML = data;
             })
             .catch(error => {
-                // Display an error message if loading the content fails
-                document.getElementById("tabContent").innerHTML = "Error loading content.";
-                console.error("Error loading content:", error);
+                document.getElementById('content').innerHTML = '<p>Error loading content.</p>';
             });
     }
-
-    // Automatically load the first tab's content when the page is loaded
-    document.addEventListener('DOMContentLoaded', function() {
-        document.querySelector(".tablinks").click();
-    });
