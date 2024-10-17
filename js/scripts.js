@@ -46,6 +46,10 @@ window.addEventListener('DOMContentLoaded', event => {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
 
+        // Show the selected tab and add an 'active' class to the button
+        document.getElementById(tabName).classList.add('active');
+        evt.currentTarget.className += " active";
+
         // Add 'active' class to the clicked tab button
         evt.currentTarget.className += " active";
 
