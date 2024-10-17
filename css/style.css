@@ -7,11 +7,11 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f7f7f7; /* Light background for contrast */
-  color: #333; /* Dark text for readability */
+  background-color: #f7f7f7;
+  color: #333;
 }
 
-/* Header, Row, and Footer Styles */
+/* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .row,
 .footer {
@@ -23,96 +23,73 @@ body {
 /* Custom page header */
 .header {
   border-bottom: 1px solid #e5e5e5;
-  background-color: #ffffff; /* White background for header */
+  background-color: #fff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 20px;
 }
 
-/* Header Title */
+/* Make the masthead heading the same height as the navigation */
 .header h3 {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
+  padding-bottom: 19px;
   font-weight: bold;
-  color: #ff6a00; /* Updated header color to match tab active gradient */
+  color: #2a6496;
 }
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
-  color: #777; /* Gray text for footer */
+  color: #777;
   border-top: 1px solid #e5e5e5;
-  background-color: #ffffff; /* White background for footer */
+  background-color: #fff;
   box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   padding: 20px;
 }
 
-/* Tab Container */
-.tabs {
-  display: flex;
-  justify-content: space-around; /* Center tabs */
+.container-narrow > hr {
   margin: 20px 0;
-}
-
-/* Tab Button Styles */
-.tab-button {
-  background-color: transparent; /* No background */
-  border: none; /* No border */
-  border-radius: 8px; /* Rounded corners */
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  color: #2a6496; /* Primary link color */
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.tab-button:hover {
-  background-color: rgba(42, 100, 150, 0.1); /* Light background on hover */
-}
-
-.tab-button.active {
-  background: linear-gradient(45deg, #ff6a00, #ee0979); /* Gradient for active tab */
-  color: white; /* Text color for active tab */
-}
-
-/* Tab Content */
-.tab-content {
-  background-color: #ffffff; /* White background for tab content */
-  border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  border: none;
+  border-top: 1px solid #e5e5e5;
 }
 
 /* Main marketing message and sign-up button */
-.jumbotron {
+.container .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
   padding-left: 20px;
   padding: 30px;
-  background-color: #ffffff; /* White background for jumbotron */
+  background-color: #fff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
 
-/* Button Styles */
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
-  background: linear-gradient(45deg, #ff6a00, #ee0979); /* Gradient for primary button */
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
   border: none;
   color: white;
   transition: background 0.3s ease;
-  border-radius: 50px; /* Rounded button */
+  border-radius: 50px;
 }
 
 .jumbotron .btn:hover {
-  background: linear-gradient(45deg, #ff3d00, #ee0077); /* Darker gradient on hover */
+  background: linear-gradient(45deg, #ff3d00, #ee0077);
 }
 
 .row p + h3 {
   margin-top: 28px;
+}
+
+div.row h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+  font-weight: bold;
+  color: #2a6496;
 }
 
 .row-margin {
@@ -135,24 +112,57 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, h3custom, .h3custom {
   margin-bottom: 0.5rem;
   font-weight: 600;
   line-height: 1.2;
-  color: #343a40; /* Dark color for headings */
+  color: #343a40;
+  transition: color 0.3s ease;
 }
 
-/* General link styling */
+/* Make the masthead heading the same height as the navigation */
+h3custom, .h3custom {
+  border: none;
+  margin-bottom: 0rem;
+  /* font-size: 1.5em; */
+}
+
+h1, .h1 {
+  font-size: calc(1.725rem + 3.7vw);
+  color: #2a6496;
+}
+
+/* Links styling */
 a {
-  color: #2a6496; /* Primary link color */
+  color: #2a6496;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover, a:focus {
   text-decoration: underline;
-  color: #0b5ed7; /* Color on hover for links */
+  color: #0b5ed7;
+}
+
+/* Button primary style with gradient */
+.btn-primary {
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(45deg, #ff3d00, #ee0077);
+  transform: translateY(-3px);
+}
+
+/* General button styles */
+.btn-primary:active {
+  transform: translateY(0);
 }
 
 /* Primary color variables */
 :root {
-  --bs-primary-rgb: 255, 106, 0; /* Updated primary RGB for consistent styling */
+  --bs-primary-rgb: 255, 106, 0;
 }
 
 /* Adaptive spacing and card styling for mobile */
@@ -162,11 +172,88 @@ a:hover, a:focus {
   .container,
   .jumbotron {
     width: 90%;
-    margin: 0 auto; /* Centered on mobile */
-  }
-
-  .tab-button {
-    flex: 1; /* Make tabs responsive */
-    margin: 0 5px; /* Margin for spacing */
+    margin: 0 auto;
   }
 }
+
+
+
+/* Style of the tabs
+
+
+ */
+
+
+.tab {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            border-radius: 8px;
+            overflow: hidden;
+            width: 60%;
+        }
+
+        .tab button {
+            flex-grow: 1;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #555;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .tab button.active {
+            background: linear-gradient(45deg, #ff6a00, #ee0979);
+            color: white;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .tab button:hover:not(.active) {
+            background-color: #f1f1f1;
+        }
+
+        .tab button::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 3px;
+            background: linear-gradient(45deg, #ff6a00, #ee0979);
+            transition: width 0.3s ease, left 0.3s ease;
+        }
+
+        .tab button:hover::before {
+            width: 100%;
+            left: 0;
+        }
+
+
+        .content {
+            padding: 30px;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        @media (max-width: 768px) {
+            .tab {
+                width: 90%;
+            }
+
+            .content {
+                width: 90%;
+            }
+        }
+
+
