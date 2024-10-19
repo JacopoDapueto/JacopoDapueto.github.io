@@ -193,7 +193,7 @@ a:hover, a:focus {
             margin: 20px auto;
             border-radius: 8px;
             overflow: hidden;
-            width: 90%;
+            width: 100%;
         }
 
         .tab button {

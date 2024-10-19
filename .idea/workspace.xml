@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34a326d-04e8-49cd-8bf4-e532345b3a31" name="Changes" comment="Base Info about me">
-      <change afterPath="$PROJECT_DIR$/others.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="b34a326d-04e8-49cd-8bf4-e532345b3a31" name="Changes" comment="Introduction" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +99,7 @@
       <workItem from="1729233228245" duration="982000" />
       <workItem from="1729236486803" duration="1897000" />
       <workItem from="1729264134371" duration="803000" />
-      <workItem from="1729328379962" duration="2742000" />
+      <workItem from="1729328379962" duration="3061000" />
     </task>
     <task id="LOCAL-00001" summary="init website">
       <option name="closed" value="true" />
@@ -345,7 +341,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729346488903</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Introduction">
+      <option name="closed" value="true" />
+      <created>1729347278310</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1729347278310</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Introduction">
+      <option name="closed" value="true" />
+      <created>1729347363491</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1729347363491</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Introduction">
+      <option name="closed" value="true" />
+      <created>1729347589468</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729347589468</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +374,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init website" />
     <MESSAGE value="Base Info about me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Base Info about me" />
+    <MESSAGE value="Introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduction" />
   </component>
 </project>
