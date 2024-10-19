@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34a326d-04e8-49cd-8bf4-e532345b3a31" name="Changes" comment="init website">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b34a326d-04e8-49cd-8bf4-e532345b3a31" name="Changes" comment="Base Info about me">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,7 @@
       <workItem from="1729233228245" duration="982000" />
       <workItem from="1729236486803" duration="1897000" />
       <workItem from="1729264134371" duration="803000" />
-      <workItem from="1729328379962" duration="1376000" />
+      <workItem from="1729328379962" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="init website">
       <option name="closed" value="true" />
@@ -328,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729165494859</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Base Info about me">
+      <option name="closed" value="true" />
+      <created>1729346012153</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1729346012154</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,6 +343,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init website" />
-    <option name="LAST_COMMIT_MESSAGE" value="init website" />
+    <MESSAGE value="Base Info about me" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base Info about me" />
   </component>
 </project>
