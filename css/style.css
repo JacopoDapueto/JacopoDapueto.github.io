@@ -248,7 +248,7 @@ a:hover, a:focus {
 
         @media (max-width: 768px) {
             .tab {
-                width: 90%;
+                width: 100%;
             }
 
             .content {
