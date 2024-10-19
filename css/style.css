@@ -242,7 +242,7 @@ a:hover, a:focus {
             background-color: #fff;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            width: 60%;
+            width: 90%;
             margin: 20px auto;
         }
 
@@ -252,7 +252,7 @@ a:hover, a:focus {
             }
 
             .content {
-                width: 100%;
+                width: 90%;
             }
         }
 
