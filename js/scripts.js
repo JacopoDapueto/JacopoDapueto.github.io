@@ -55,8 +55,10 @@ function loadContent(page, tabElement) {
                 document.getElementById('content').innerHTML = '<p>Error loading content.</p>';
             });
 
-        // Automatically click the default tab when the page loads
+
+    }
+
+    // Automatically click the default tab when the page loads
         window.onload = function() {
         document.getElementById("defaultTab").click();
     };
-    }
