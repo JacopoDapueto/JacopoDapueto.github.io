@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b34a326d-04e8-49cd-8bf4-e532345b3a31" name="Changes" comment="Introduction">
+    <list default="true" id="b34a326d-04e8-49cd-8bf4-e532345b3a31" name="Changes" comment="update august">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,15 +124,7 @@
       <workItem from="1741872630569" duration="6524000" />
       <workItem from="1741947770404" duration="6549000" />
       <workItem from="1742200856049" duration="93000" />
-      <workItem from="1755096602484" duration="2159000" />
-    </task>
-    <task id="LOCAL-00039" summary="Introduction">
-      <option name="closed" value="true" />
-      <created>1729348598250</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1729348598250</updated>
+      <workItem from="1755096602484" duration="2682000" />
     </task>
     <task id="LOCAL-00040" summary="Introduction">
       <option name="closed" value="true" />
@@ -519,7 +510,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741947869594</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="update august">
+      <option name="closed" value="true" />
+      <created>1755098777495</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1755098777495</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,6 +528,7 @@
     <MESSAGE value="init website" />
     <MESSAGE value="Base Info about me" />
     <MESSAGE value="Introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduction" />
+    <MESSAGE value="update august" />
+    <option name="LAST_COMMIT_MESSAGE" value="update august" />
   </component>
 </project>
