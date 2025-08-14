@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b34a326d-04e8-49cd-8bf4-e532345b3a31" name="Changes" comment="update august">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/others.html" beforeDir="false" afterPath="$PROJECT_DIR$/others.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teaching.html" beforeDir="false" afterPath="$PROJECT_DIR$/teaching.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,15 +126,7 @@
       <workItem from="1741947770404" duration="6549000" />
       <workItem from="1742200856049" duration="93000" />
       <workItem from="1755096602484" duration="7787000" />
-      <workItem from="1755158304016" duration="4225000" />
-    </task>
-    <task id="LOCAL-00059" summary="Introduction">
-      <option name="closed" value="true" />
-      <created>1741802590781</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1741802590781</updated>
+      <workItem from="1755158304016" duration="4380000" />
     </task>
     <task id="LOCAL-00060" summary="Introduction">
       <option name="closed" value="true" />
@@ -518,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755162405259</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="update august">
+      <option name="closed" value="true" />
+      <created>1755162539949</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1755162539949</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
